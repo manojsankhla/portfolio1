@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+
+
+    <style>
+
+
+.trand-collection{
+    width: 100%;
+    height: 50%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.trand-shoe{
+    width:100%;
+    padding:10px;
+   
+}
+
+.trand-shoe p{
+    font-weight: 600;
+}
+
+.trand-collection button{
+  justify-content: none;
+    background-color: yellow;
+}
+
+    </style>
+
+
+</head>
+<body>
+    
+    <div class="trand-collection">
+
+        <div class="trand-shoe">
+
+            <img src="../Nike/Tranding-1.jpeg" alt="trand-collection">
+            <p>Nike Air Force 1 '07 LX</p>
+            <p2>Women Shoe</p2>
+            <p>MRP :<i class="bi bi-currency-rupee"></i> 10 795.00</p>
+
+        </div>
+
+
+        <div class="trand-shoe">
+
+            <img src="../Nike/Tranding-2.jpeg" alt="trand-collection">
+            <p>Sabrina 2 EP</p>
+            <p2>Basketball Shoe</p2>
+            <p>MRP :<i class="bi bi-currency-rupee"></i> 11 895.00</p>
+
+        </div>
+
+
+        <div class="trand-shoe">
+
+            <img src="../Nike/Tranding-3.jpeg" alt="trand-collection">
+            <p>Book 1 EP Leather</p>
+            <p2>Basketball Shoe</p2>
+            <p>MRP :<i class="bi bi-currency-rupee"></i> 13 995.00</p>
+
+        </div>
+
+
+        <div class="trand-shoe">
+
+            <img src="../Nike/Tranding-4.jpeg" alt="trand-collection">
+            <p>Nike Pro Swoosh Asymetrical</p>
+            <p2>Women's Medium-Support Padded</p2>
+            <p>MRP :<i class="bi bi-currency-rupee"></i> 2 695.00</p>
+
+        </div>
+
+
+        <div class="trand-shoe">
+
+            <img src="../Nike/Tranding-5.jpeg" alt="trand-collection">
+            <p>Jorden One Take 5 PF</p>
+            <p2>Basketball Shoe</p2>
+            <p>MRP :<i class="bi bi-currency-rupee"></i>8 695.00</p>
+        </div>
+
+        <div class="trand-shoe">
+
+            <img src="../Nike/Tranding-6.jpeg" alt="trand-collection">
+            <p>Nike Free Metcon 6</p>
+            <p2>Women's Workout Shoe</p2>
+            <p>MRP :<i class="bi bi-currency-rupee"></i> 10 795.00</p>
+
+        </div>
+
+        <div class="trand-shoe">
+
+            <img src="../Nike/Tranding-7.jpeg" alt="trand-collection">
+            <p>Jorden Deja</p>
+            <p2>Women's sandals</p2>
+            <p>MRP :<i class="bi bi-currency-rupee"></i>8 495.00</p>
+
+        </div>
+
+        <div class="trand-shoe">
+
+            <img src="../Nike/Tranding-8.jpeg" alt="trand-collection">
+            <p>Nike Sportwear Phoenix Fleece</p>
+            <p2>Women's Over-Oversized Pullover</p2>
+            <p>MRP :<i class="bi bi-currency-rupee"></i>3 995.00</p>
+
+        </div>
+
+        <div class="trand-shoe">
+
+            <img src="../Nike/Tranding-9.jpeg" alt="trand-collection">
+            <p>Nike V2K Run GORE-TEX</p>
+            <p2>Women's Watarproof Shoe</p2>
+            <p>MRP :<i class="bi bi-currency-rupee"></i> 13 995.00</p>
+
+        </div>
+
+        <div class="trand-shoe">
+
+
+            <img src="../Nike/Tranding-10.jpeg" alt="trand-collection">
+            <p>Nike Air Force 1'07</p>
+            <p2>Men Shoe</p2>
+            <p>MRP :<i class="bi bi-currency-rupee"></i> 9 695.00</p>
+
+        </div>
+        
+
+    </div>
+
+</div>
+
+    <script>
+   
+$(document).ready(function() {
+    $("trand-collection").owlCarousel({
+        items : 3,
+        itemsDesktop:[1199,3],
+        itemsDesktopSmall:[980,2],
+        itemsMobile : [600,1],
+        navigation:true,
+        navigationText:["",""],
+        pagination:true,
+        autoPlay:true
+    });
+});
+
+    </script>
+
+</body>
+</html>

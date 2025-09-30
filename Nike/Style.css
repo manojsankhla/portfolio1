@@ -1,0 +1,511 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+/* The first navbar of jordan. Css are using for  styling the first navbar */
+
+
+.help-section {
+    width: 100%;
+    height: 40px;
+    background-color: #F5F5F5;
+
+
+}
+
+.help-section img {
+    margin-top: 8px;
+    margin-left: 4%;
+    cursor: pointer;
+
+}
+
+
+.help-section ul {
+    margin-left: 73%;
+    margin-top: -25px;
+    border-right: 1px solid black;
+
+}
+
+.help-section ul li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 10px;
+
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+/* Jordan css are commpleted theair */
+
+
+/* The Help section are started for this line 
+and help section some option are css started  from here */
+
+.help {
+    width: 13%;
+    height: 36%;
+    margin-top: 10px;
+    background-color: white;
+    /* float: left;
+    justify-content: left;
+    justify-items: left; */
+    display: none;
+    padding-left: -160px;
+    position: absolute;
+    margin-left: -150px;
+    border-radius: 10px;
+
+
+
+}
+
+.help ul {
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 50px !important;
+    border-right: none;
+    /* float: left; */
+    /* justify-content: left;
+    align-items: left;
+    justify-items: left; */
+
+}
+
+.help ul li {
+    list-style: none;
+    text-align: left;
+    font-weight: 100;
+    color: gray;
+    font-size: 13px;
+    margin-left: -20px;
+    padding-bottom: 5px;
+
+}
+
+.help-section ul li:hover .help {
+    display: block;
+}
+
+.help ul li h4 {
+    color: black;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+
+/* The 1st navbar are compeleted with help section */
+
+/* 2nd  navbar */
+/* The Nike's Navbar 2nd nabar started  */
+
+.nike-navbar {
+    width: 100%;
+    height: 65px;
+    background-color: #ffffff;
+
+}
+
+.nike-navbar img {
+    margin-left: 45px;
+}
+
+.nike-navbar ul {
+    margin-left: 29%;
+    margin-top: -33px;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.nike-navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.nike-navbar span {
+    background-color: #f6f6f6;
+    ;
+    align-items: center;
+    border-radius: 28px;
+    font-size: 20px;
+    padding-left: -20px;
+    padding-bottom: 8px;
+
+}
+
+.nike-navbar span input {
+    width: 120px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    color: #333333;
+    background: transparent;
+    padding-top: -4px;
+}
+
+.nike-navbar ul .icon {
+    padding-left: 85%;
+    margin-top: -40px;
+    font-size: 18px;
+}
+
+.nike-navbar ul .icon .bi {
+    font-size: 23px;
+    padding-right: 15px;
+}
+
+/* The Nike's Navbar css are commpleted  */
+
+/* This row  is for the Nike's Sale offer and  the discount  */
+
+.sale-section {
+    width: 100%;
+    height:60px;
+    background-color: #F3F3F3;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 8px;
+    cursor: pointer;
+    font-size:10px;
+}
+
+.sale-section h3 {
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: -15px;
+}
+
+.sale-section p {
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.sale {
+    position: relative;
+    animation-name: sale-section;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+@keyframes sale-section {
+    from {
+        left: 0px;
+        top: 0px;
+        animation-delay: 3s;
+    }
+
+    to {
+        left: -70%;
+        animation-timing-function: 1s;
+    }
+
+    /* 100%{
+    animation-delay: 3s;
+        
+    } */
+}
+
+.sale:hover {
+    animation-play-state: paused;
+}
+
+/* Animation are  paused when hover on the element  */
+/* Animation Are completed */
+
+
+/* Video section started fornt of website  */
+
+.video {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+.video video {
+    padding-left: 50px;
+    align-items: center;
+}
+
+.winning-part {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.winning-part h1 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 75px;
+    padding-top: 0px;
+
+}
+
+.winning-part button {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 30px;
+    background-color: black;
+    border-radius: 28px;
+    color: white;
+    font-size: 18px;
+}
+
+/* The winning part are completed */
+
+/* New section of Nike's The Latest collection*/
+
+.The-latest {
+    width: 93%;
+    height: 100%;
+    display: flex;
+    padding-left: 50px;
+
+}
+
+
+
+.The-latest .collection {
+    width: 100%;
+    height: 70%;
+}
+
+.The-latest .collection img {
+    width: 400px;
+    height: 550px;
+    padding-top: 50px;
+
+}
+
+
+.The-latest p {
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: 400;
+
+}
+
+.the {
+    padding-top: 30px;
+    padding-left: 50px;
+    margin-bottom: -20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+
+/* The Latest collection are completed  */
+
+
+
+
+/* New Section  css started Tranding this week  */
+
+.trand {
+    width:100%;
+    height: 70%;
+    margin-top: 50px;
+  
+}
+
+.trand h3 {
+    padding-top: 30px;
+    padding-left:50px;
+    margin-bottom: -20px;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
+.btn{
+    width: 130px;
+    height: 50px;
+ 
+    margin-left: 88%;
+    
+}
+
+.btn button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin:0 5px;
+}
+
+.btn i{
+    font-size: 20px;
+}
+
+
+.trand-collection{
+    width: 100%;
+    height: 50%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    overflow:hidden;
+    transition: all 0.25s ease-in;
+    scroll-behavior: smooth;
+}
+
+.item{
+    width:100%;
+    padding:10px;
+   
+}
+
+.item p{
+    font-weight: 600;
+}
+
+.trand-collection button{
+  justify-content: none;
+    background-color: yellow;
+}
+.home-demo .item {
+    background: #ff3f4d;
+}
+.home-demo h2 {
+    color: #FFF;
+    text-align: center;
+    padding: 5rem 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.trand-collection:hover{
+    overflow: scroll;
+}
+
+/* Trand  Collection Css end Code end */
+
+
+.latest-collection{
+    width:100%;
+    height:50%;
+    align-items: center;
+    cursor:pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+    
+}
+
+.latest-collection h3{
+    padding-top:50px;
+    margin-bottom: -20px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-right:84%;
+
+}
+
+
+.latest-collection video{
+    padding-top:50px;
+    text-align: center;
+}
+
+.latest-collection h1{
+    font-weight: 900;
+    text-align: center;
+    font-size: 75px;
+    padding-top: 0px;
+    text-align: center;
+
+}
+
+.latest-collection p{
+    padding-top: 30px;
+  font-size:18px;
+  text-align: center;
+    
+}
+
+.latest-collection button{
+    width: 150px;
+    height: 40px;
+    /* margin-left:590px; */
+    cursor: pointer;
+    margin-top: 30px;
+    background-color: black;
+    border-radius: 28px;
+    color: white;
+    font-size: 18px;
+   
+}
+
+
+/* The new Section Classic soptlight */
+
+
+
+.classic {
+    width:100%;
+    height: 70%;
+    margin-top: 50px;
+  
+}
+
+.classic h3 {
+    padding-top: 30px;
+    padding-left:50px;
+    margin-bottom: -20px;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
+.classic-spotlight{
+    width: 100%;
+    height: 50%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    overflow:hidden;
+}
+
+.classic-spotlight .item{
+    width:100%;
+    padding:10px;
+   
+}
+
+.classic-spotlight img{
+    width:400px;
+}
+
+.classic-spotlight:hover{
+    overflow: scroll;
+}
+
+.classic button {
+    margin-left:800px;
+    padding: 10px;
+    
+   
+}
+
