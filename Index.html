@@ -4,26 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manoj|Portfolio</title>
+    <title>Manoj Sankhla</title>
+    <link rel="icon" type="image/x-icon" href="./Images/logo.png">
     <!-- CSS Link -->
     <link rel="stylesheet" href="style.css">
     <!-- Font Awesome Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+
 </head>
 
 <body>
 
     <header>
 
-        <nav>
+        <nav class="navbar scrolled-nav">
             <div class="nav-logo">
-                <a href="./Index.html"></a>
-                    <img src="./Images/WebSite logo (2).png" width="100px" height="90px" alt="Logo">
+                <a href="#home">Manoj</a>
+                    <!-- <img src="./Images/logo.png" width="100px" height="90px" alt="Logo"> -->
                 </a>
             </div>
-            <button class="nav-toggle" aria-label="Toggle navigation"></button>
+            <!-- <button class="nav-toggle" aria-label="Toggle navigation"></button>
                 <i class="fa fa-bars"></i>
-            </button>
+            </button> -->
             <div class="nav-content">
                 <ul>
                     <a href="#home">Home</a>
@@ -33,13 +35,7 @@
                 </ul>
             </div>
         </nav>
-        <script>
-            const toggleBtn = document.querySelector('.nav-toggle');
-            const navContent = document.querySelector('.nav-content');
-            toggleBtn.addEventListener('click', () => {
-                navContent.classList.toggle('active');
-            });
-        </script>
+       
 
 
 
@@ -185,12 +181,12 @@
                         <h3><i class="fa-solid fa-phone"></i>Phone: <span>+91-8076930424 </span></h3>
                         <h3><i class="fa-solid fa-envelope"></i>Email: <span>manojsankhla0001@gmail.com</span></h3>
                         <h3><i class="fa-solid fa-location-dot"></i>Address:<span>New Delhi India</span></h3>
-                        <h3><a href=""></a><i class="fa-brands fa-github"></i>Gethub: <span>manoijsankhla</span></h3>
+                        <h3><i class="fa-brands fa-github"></i>Gethub: <span><a href="https://github.com/manojsankhla">manojsankhla</a></span></h3>
 
                     </div>
 
                 </div>
-                <form action="https://formspree.io/f/xdkwgpyb" method="POST">
+                <form action="#">
                     <input type="text" placeholder="Name" required>
                     <input type="email" placeholder="Email" required>
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
@@ -215,9 +211,8 @@
     </footer>
     <!-- JavaScript Link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
-    <script src="/Index.js"></script>
+    <script src="Index.js"></script>
 
 </body>
 
 </html>
-
