@@ -1,0 +1,744 @@
+* {
+    margin: 0;
+}
+
+body {
+
+    background-image: url(HP2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img {
+    float: left;
+}
+
+.menu {
+
+    width: 100%;
+    height: 85px;
+    position: sticky;
+    background-color: black;
+    top: 0;
+    z-index: 10;
+
+}
+
+.menu ul {
+    text-align: right;
+
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    padding: 35px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 35px;
+}
+
+/* The ProfitFusionindia are gives you multipule services */
+.menu1 {
+    width: 280;
+    height: 270px;
+    background-color: #012A52;
+    position: absolute;
+    display: none;
+    margin-top: 30px;
+    border-top: 2px solid yellow;
+}
+
+.menu1 ul {
+    margin: 0% !important;
+    padding: 0% !important;
+    margin-top: 25px !important;
+}
+
+.menu1 ul li {
+    display: block;
+    text-align: left;
+    margin-top: -50px !important;
+    border-bottom: 1px solid  #133C65;
+}
+
+.menu:hover .menu1 {
+    display: block;
+    
+}
+
+h1 {
+    text-align: right;
+    color: white;
+    margin-right: 70px;
+    font-size: 50px;
+    margin-top: 150px;
+}
+
+.web-tag {
+    color: yellow;
+    margin-right: 70px;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+/* This is action button for cotacting to company */
+.action-button{
+    margin-top: 50px;
+    margin-left:1100px !important;
+}
+
+.action-button button{
+    background-color:#5ac25a;
+    width: 150px;
+    height: 50px;
+    border-radius:8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+
+}
+
+.p1 {
+    float: right;
+    margin-top: 0px;
+    margin-right: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    width: 600px;
+}
+
+
+.web1 {
+    padding-top: 30px;
+    color: #012243;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+hr {
+    margin-left: 610px;
+    border-radius: 10px 10px;
+    background-color: yellow;
+    width: 60px;
+    height: 6px;
+
+}
+
+.box {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    width: 100%;
+    height: 190px;
+    background-color: #F5F5F5;
+
+}
+
+.web2 {
+    text-align: center;
+    color: #012243;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left:40px;
+}
+
+.card {
+    display: inline-block;
+    margin: 70px;
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+
+}
+
+
+.head1 {
+    color: #012243;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.web-design {
+    color: #9C9B99;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.hr1 {
+    width: 30px;
+    height: 3px;
+    color: yellow;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.why-choose {
+    background-image: url("D:/Download/Prectice/Email-Marketing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    margin-top: 100px;
+
+}
+
+.why {
+    text-align: center;
+    margin-top: -60px;
+    padding-top: 50px;
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    height: 150px;
+    background-color: #012243;
+    opacity: 0.8;
+}
+
+.why span {
+    color: yellow;
+}
+
+.phone {
+    width: 248px;
+    height: 498px;
+    background-color: #133C65;
+    border-radius: 35px 35px;
+    margin-top: 50px;
+    margin: 50px;
+}
+
+.phone h2 {
+    margin-top: -350px;
+    margin-left: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+}
+
+.phone h2 span {
+    color: #F6CD2A;
+}
+
+.phone p {
+    margin-left: 50px;
+    color: white;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.phone h3 {
+    margin-left: 40px;
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    font-size: 17px;
+    width: 170px;
+    border-radius: 5px 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+.service {
+    float: left;
+    margin-top: -500px;
+    margin-left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.service .service1 {
+    padding-top: 50px;
+}
+
+.service h3 {
+    color: #012243;
+    margin-left: 120px;
+    margin-top: -60px;
+
+}
+
+.service p {
+    margin-left: 120px;
+    padding-top: 10px;
+}
+
+
+.service2 {
+    float: left;
+    margin-top: -530px;
+    margin-left: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.service2 h3 {
+    color: #012243;
+    margin-left: 120px;
+    margin-top: -80px;
+
+
+}
+
+.service2 img {
+    margin-top: 20px;
+}
+
+.service2 p {
+    margin-left: 120px;
+}
+
+.mark img {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.mark {
+    width: 100%;
+    height: 500px;
+    background-color: whitesmoke;
+    margin-top: -100px;
+}
+
+.mark1 {
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mark1 h1 {
+    color: #012243;
+    text-align: left;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.mark1 h3 {
+    font-size: larger;
+    padding-top: 30px;
+}
+
+.mark1 hr {
+    width: 50px;
+    height: 8px;
+    margin-left: 3px;
+    margin-top: 10px;
+    color: #F6CD2A;
+}
+
+.mark1 .time {
+    height: 5px;
+    width: 450px;
+    background-color: #012243;
+    border-radius: 0%;
+}
+
+.mark .sucess {
+    height: 5px;
+    width: 500px;
+    background-color: #012243;
+    border-radius: 0%;
+}
+
+.mark .customer {
+    height: 5px;
+    width: 550px;
+    background-color: #012243;
+    border-radius: 0%;
+}
+
+.mark1 .a85 {
+    margin-left: 445px;
+    margin-top: -28px;
+    background-color: #F6CD2A;
+    width: 50px;
+    border-radius: 100%;
+    height: 30px;
+    padding-top: 20px;
+
+}
+
+.mark1 p {
+    text-align: center;
+    font-size: larger;
+    margin-top: -7px;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+.mark1 .a95 {
+    margin-left: 495px;
+    margin-top: -28px;
+    background-color: #F6CD2A;
+    width: 50px;
+    border-radius: 100%;
+    height: 30px;
+    padding-top: 20px;
+
+}
+
+.mark1 .a99 {
+    margin-left: 545px;
+    margin-top: -28px;
+    background-color: #F6CD2A;
+    width: 50px;
+    border-radius: 100%;
+    height: 30px;
+    padding-top: 20px;
+
+}
+
+.our h1 {
+    text-align: center;
+    color: #012243;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.our-service {
+    text-align: center;
+    margin: 30px;
+
+}
+
+.our-service a {
+    margin: 10px;
+    color: #012243;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 1px solid wheat;
+}
+
+.our-img {
+    margin: 65px;
+}
+
+.scroll {
+    width: 100%;
+    height: 200px;
+    background-color: whitesmoke;
+    margin-top: -30px;
+}
+
+.scroll marquee {
+    padding-top: 40px;
+}
+
+.profile {
+    background-image: url("D:/Download/Prectice/Email-Marketing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    height: 400px;
+    margin-top: -150px;
+    width: 100%;
+
+}
+
+.profile1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    background-color: #012243a8;
+    padding-left: 50px;
+    height: 400px;
+
+}
+
+.profile1 h1 {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+
+.profile1 input {
+
+    background: transparent;
+    border-radius: 25px;
+    margin: 20px;
+    width: 250px;
+    border: 2px solid white;
+    height: 40px;
+    font-style: italic;
+    position: relative;
+
+}
+
+.profile1 button {
+    background-color: #F6CD2A;
+    border-radius: 25px;
+    width: 260px;
+    height: 48px;
+    margin-left: 20px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.profile1 img {
+    width: 400px;
+    height: 400px;
+    margin-left: 850px;
+    margin-top: -347px;
+
+}
+
+::placeholder {
+    color: white;
+    padding-left: 20px;
+}
+
+.testmoney {
+    width: 1250px;
+    margin: 50px;
+
+
+}
+
+.testmoney h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #012243;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: -30px;
+}
+
+.testmoney img {
+    width: 180px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.test1 h3 {
+    margin-left: 250px;
+    margin-top: -190px;
+    color: #157EAB;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.test1 p {
+    margin-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: slategray;
+
+}
+
+.test2 {
+    width: 180px;
+    height: 200px;
+    margin-left: 600px;
+    margin-top: -160px;
+}
+
+.test2 h3 {
+    margin-left: 260px;
+    margin-top: -180px;
+    color: #157EAB;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.test2 P {
+    margin-left: 260px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: slategray;
+    width: 300px;
+}
+
+.address {
+    background-color: #012243;
+    height: 590px;
+
+
+}
+
+.logo {
+    float: right;
+    margin-right: 1010px;
+
+
+
+}
+
+.para1 {
+    column-count: 1;
+    color: white;
+    width: 330px;
+    margin: 50px;
+    line-height: 1.9;
+
+}
+
+.add {
+    margin-top: -70px;
+
+}
+
+.add ul li {
+    list-style: none;
+    color: white;
+    margin-left: 10px;
+
+}
+
+.bi-telephone-fill {
+    color: yellow;
+}
+
+.bi-envelope-fill {
+    color: yellow;
+}
+
+.bi-house-fill {
+    color: yellow;
+}
+
+/* Links */
+.link {
+    margin-left: 400px;
+    margin-top: -700px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.link ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.link h3 {
+    padding-left: 68px;
+    font-size: 23px;
+    padding-top: 100px;
+
+
+}
+
+.link ul li {
+    margin: 10px;
+
+}
+
+.link hr {
+    margin: 5px;
+    width: 25px;
+    height: 2px;
+    margin-left: 70px !important;
+    size: 100px;
+    float: left;
+    color: yellow;
+}
+
+.bi-chevron-right {
+    color: yellow;
+}
+
+
+.support ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.support h3 {
+    padding-left: 450px;
+    font-size: 23px;
+    padding-top: 100px;
+    margin-top: -80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.support ul li {
+    margin: 10px;
+    padding-left: 400px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.support hr {
+    margin: 5px;
+    width: 25px;
+    height: 2px;
+    margin-left: 450px !important;
+    size: 100px;
+    float: left;
+    color: yellow;
+}
+
+.bi-chevron-right {
+    color: yellow;
+}
+
+.reg {
+    margin-left: 800px;
+    margin-top: -490px;
+    color: white;
+}
+
+.reg h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.in label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.in input {
+    border-radius: 5px;
+    width: 400px;
+    height: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.in ::placeholder {
+    color: slategray;
+    margin-left: -10px;
+}
+
+.reg button {
+    background-color: #3b8cd3;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.foot {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: #00152A;
+    color: slategrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foot p {
+    padding-top: 25px;
+
+}
