@@ -4,177 +4,219 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manoj Sankhla</title>
-    <!-- Fvicon -->
-    <link rel="icon" type="image/png" href="./Images/WebSite logo (2).png">
+    <title>Manoj|Portfolio</title>
     <!-- CSS Link -->
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
 </head>
 
 <body>
 
-    <!-- =============================Hero Section======================= -->
-    <!-- Navbar -->
-    <nav>
+    <header>
 
-        <div class="nav-logo"><a href="#"><img src="./Images/WebSite logo (2).png" width="100px" height="90px"
-                    alt="Logo"></a></div>
-        <div class="nav-content">
-            <ul>
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#project">Project</a>
-                <a href="#contact">Contact</a>
-            </ul>
+        <nav>
+            <div class="nav-logo">
+                <a href="./Index.html"></a>
+                    <img src="./Images/WebSite logo (2).png" width="100px" height="90px" alt="Logo">
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation"></button>
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="nav-content">
+                <ul>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#project">Project</a>
+                    <a href="#contact">Contact</a>
+                </ul>
+            </div>
+        </nav>
+        <script>
+            const toggleBtn = document.querySelector('.nav-toggle');
+            const navContent = document.querySelector('.nav-content');
+            toggleBtn.addEventListener('click', () => {
+                navContent.classList.toggle('active');
+            });
+        </script>
+
+
+
+    </header>
+
+    <!-- Hero Section -->
+
+    <section>
+        <div class="hero" id="home">
+            <div class="hero-content">
+                <h1>Hi, I'm Manoj Sankhla</h1>
+                <p></p>
+
+            </div>
+
         </div>
+    </section>
 
-    </nav>
+    <!-- About Section -->
+    <section>
+        <div class="about" id="about">
+            <div class="about-content">
+                <div class="img"><img src="./Images/About-me.jpg" alt="Photo" width="400px" height="400px"></div>
+                <div class="content">
+                    <h2>ABOUT<span>ME</span></h2>
+                    <p>I'm a committed Frontend Developer with hands-on experience in developing responsive,
+                        user-centric web applications. Experienced with HTML, CSS, JavaScript, Bootstrap, jQuery, and
+                        MySQL, I have expertise in creating clean and tidy interfaces and smooth user experiences. I
+                        enjoy turning ideas into interactive, functional, and stunning digital solutions while learning
+                        new technology to stay in line with the latest industry trends.</p>
+                    <div class="icon">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3"></i>
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <i class="fa-solid fa-database"></i>
+                        <i class="fa-brands fa-jquery"></i>
+                    </div>
 
-
-
-
-    <div class="intro" id="home">
-        <div class="intro-sec">
-            <h1>Manoj Sankhla</h1>
-            <h3>Frontend Developer</h3>
-            <p>Extremely talented website designer in designing visually <br>appealing and user-friendly websites.
-                Skilled in design with <br> a solid grasp of web design principles, HTML, CSS, and JavaScript.
-                <br>Strong track record of producing high-quality designs that surpass client expectations.
-            </p>
+                    <button class="resume"><a href="./Images/Resume.pdf">Resume</a></button>
+                    <button><a href="./Images/Manoj Kumar Sankla_Certificate.pdf">Certificate</a></button>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <!-- Project Section -->
+    <section>
+        <div class="project" id="project">
+            <div class="project-content">
+                <h2>MY<span>PROJECTS</span></h2>
+                <div class="project-cards">
+                    <!-- Profit Fusion India Project 1 -->
+                    <div class="card">
+                        <img src="./Images/Profit Fusion - Google Chrome 29-08-2025 02_49_54 PM.png" alt="Project 1"
+                            width="300px" height="200px">
+                        <div class="content-of-card">
+                            <h3>Profit Fusion India</h3>
+                            <a href="./Profit-Fusion/profitfusion india.html"><p>View the Project<i class="fa-solid fa-arrow-right"></i></p></a>
 
-    <!-- =============================About Section======================= -->
+                        </div>
 
-    <div class="about" id="about">
-        <div class="about-sec">
-            <h4>INTRODUCTION</h4>
-            <h2>Designing Websites That Make an Impact.</h2>
-            <p>Your website is more than just a digital presence it’s your brand’s first impression. I design visually
-                stunning, high-performance websites that captivate audiences and deliver results. From sleek portfolios
-                to powerful business sites, I blend creativity with cutting-edge technology to bring your vision to
-                life.
+                    </div>
 
-                Let’s build something extraordinary together. Your next-level website starts here!</p>
+                    <div class="card">
+
+                        <img src="./Images/H&M _ Online Fashion, Homewhere - Google Chrome 29-08-2025 02_40_40 PM.png"
+                            alt="Project 1" width="300px" height="200px">
+                        <div class="content-of-card">
+                            <h3>H&M</h3>
+                            <a href="./H&M/Frontend/Index.html"><p>View the Project<i class="fa-solid fa-arrow-right"></i></p></a>
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+                        <img src="./Images/Nike Just do it. Nike IN - Google Chrome 29-08-2025 02_48_06 PM.png"
+                            alt="Project 1" width="300px" height="200px">
+                        <div class="content-of-card">
+                            <h3>Nike.Just Do It</h3>
+                            <a href="./Nike/"><p>View the Project<i class="fa-solid fa-arrow-right"></i></p></a>
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+                        <img src="./Images/Weatherapp.png" alt="Weather_app" width="300px" height="200px">
+                        <div class="content-of-card">
+                            <h3>Weather App</h3>
+                            <a href="./Weather App/Weather-app.html"><p>View the Project<i class="fa-solid fa-arrow-right"></i></p></a>
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+                        <img src="./Images/Curancy Codonverter.png" alt="Curancy_converter 1" width="300px"
+                            height="200px">
+                        <div class="content-of-card">
+                            <h3>Curancy Conveter</h3>
+                            <a href="./Currancy Converter/Currancy Converter.html"><p>View the Project<i class="fa-solid fa-arrow-right"></i></p></a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Images/Profit Fusion - Google Chrome 29-08-2025 02_49_54 PM.png" alt="Project 1"
+                            width="300px" height="200px">
+                        <div class="content-of-card">
+                            <h3>Profit Fusion India</h3>
+                            <p>View the Project<i class="fa-solid fa-arrow-right"></i></p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
         </div>
+    </section>
 
-        <!-- =============================Skill And Card Section======================= -->
 
-        <div class="cards">
-            <div class="card-sec">
-                <div class="card">
-                    <img src="./Images/HTML.png" alt="HTML" width="200px" height="200px">
-                    <div class="content">
-                        <h3>HTML</h3>
-                        <p>HTML5 is the latest version of HyperText Markup Language (HTML), used for structuring web
-                            content. It
-                            introduces new elements, attributes, and APIs to enhance web development.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./Images/CSS.png" alt="CSS" width="200px" height="200px">
-                    <div class="content">
-                        <h3>CSS</h3>
-                        <p>CSS (Cascading Style Sheets) is a stylesheet language used to design and control the
-                            appearance
-                            of
-                            web pages. It allows developers to style HTML elements and create visually appealing
-                            layouts.
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./Images/JS.png" alt="JS" width="200px" height="200px">
-                    <div class="content">
-                        <h3>Java Script</h3>
-                        <p>JavaScript (JS) is a powerful, lightweight, and dynamic programming language primarily used
-                            for
-                            web development. It enables interactive and responsive user experiences.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./Images/JQurey.png" alt="JQurey" width="200px" height="200px">
-                    <div class="content">
-                        <h3>Jquey</h3>
-                        <p>jQuery is a fast, lightweight, and feature-rich JavaScript library designed to simplify HTML
-                            DOM
-                            manipulation, event handling, animations, and AJAX interactions.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./Images/MY SQL.png" alt="JS" width="200px" height="200px">
-                    <div class="content">
-                        <h3>My SQL</h3>
-                        <p>MySQL is an open-source relational database management system (RDBMS) developed by Oracle
-                            Corporation. It is widely used for web applications, data storage, and enterprise solutions.
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./Images/Boostrap.png" alt="JS" width="200px" height="200px">
-                    <div class="content">
-                        <h3>Boostrap</h3>
-                        <p>Bootstrap is a popular open-source CSS framework used for building responsive and
-                            mobile-first
-                            websites quickly. Developed by Twitter, it includes ready-to-use components, utilities, and
-                            JavaScript plugins..</p>
-                    </div>
-                </div>
+    <div class="freelance-section">
+
+        <div class="img-for-freelance">
+            <h2>
+                I'm available for freelance work.
+            </h2>
+            <div class="contact-me">
+                <h5><a href="#contact">Contact Me</a></h5>
             </div>
         </div>
     </div>
 
 
-    <!-- =============================Project Section======================= -->
-     <div class="project-sec" id="project">
-        <h1>Projects</h1>
-        <p>The following projects demonstrate my abilities and experience using real-world examples of my work. Each project is briefly discussed, with links to source repositories and live demos included. It demonstrates my ability to tackle complicated challenges, work with a variety of technologies, and manage projects efficiently.</p>
-        <div class="container"> 
-            <div class="row">
-                <img src="./Images/Project-1.png" alt="Project 1" width="350px" height="200px">
-                <h3>Profit Fusion India Clone</h3>
-                <p>"Design a website for Profit Fusion India, offering financial solutions for business growth.
-                    Create a platform for Profit Fusion India to provide investment advice and wealth management services."</p>
-               
-                
+
+    <!-- Contact Section -->
+    <section>
+        <div class="contact" id="contact">
+            <div class="contact-content">
+                <h2>GET IN <span>TOUCH</span></h2>
+                <div class="content-for-contact">
+                    <!-- <h3>Let's Build Something Great Together</h3> -->
+                    <p>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00
+                        p.m. ET, Monday through Friday</p>
+                    <div class="Contact-info">
+                        <h3><i class="fa-solid fa-phone"></i>Phone: <span>+91-8076930424 </span></h3>
+                        <h3><i class="fa-solid fa-envelope"></i>Email: <span>manojsankhla0001@gmail.com</span></h3>
+                        <h3><i class="fa-solid fa-location-dot"></i>Address:<span>New Delhi India</span></h3>
+                        <h3><a href=""></a><i class="fa-brands fa-github"></i>Gethub: <span>manoijsankhla</span></h3>
+
+                    </div>
+
+                </div>
+                <form action="#">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
             </div>
-            <div class="row">
-                <img src="./Images/Project-2.png" alt="Project 2" width="350px" height="200px">
-                <h3>Nike. Just Do It. Clone</h3>
-                <p>"Design a clean and modern e-commerce website mirroring Nike's aesthetic."
-                    "Create a homepage layout for a Nike-style online shoe store.</p>
-            
-            </div>
-            <div class="row">
-                <img src="./Images/Project-3.png" alt="Project 3" width="350px" height="200px">
-                <h3>H&M Clone</h3>
-                <p>"Design a clean and modern homepage for a fast-fashion e-commerce site, similar to H&M."
-                    "Create a landing page highlighting new arrivals and seasonal trends."</p>
         </div>
-     </div>
+    </section>
 
 
-    <!-- =============================Contact Section======================= -->
-     <div class="contact-sec" id="contact">
-        <h1>Get in Touch</h1>
-        <p>Have a question or want to work together? I’d love to hear from you! Please feel free to reach out with any inquiries or opportunities. I’m always looking for new projects and challenges to tackle.</p>
-        <div class="contact-form">
-            <form method="post">
-                <input type="text" name="name" placeholder="Name" required><br>
-                <input type="email" name="email" placeholder="Email" required><br>
-                <textarea name="message" placeholder="Message" required rows="8" cols="50"></textarea><br>
-                <button type="submit" name="submit">Send</button>
-            </form>
-     </div>
+    <footer>
+        <div class="footer-content">
+            <p>Copyright &copy; 2025 Manoj Sankhla. All Rights Reserved.</p>
+            <!-- <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div> -->
+        </div>
 
-
-
-
-      
-     <script src="./JS/index.js"></script>
-
+    </footer>
+    <!-- JavaScript Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="/Index.js"></script>
 
 </body>
-
 
 </html>
