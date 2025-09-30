@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+    :root{
+        --mid-sec:margin-top:
+    } */
+
+body {
+    background-color: #FAF9F8;
+}
+
+/* =======Header======== */
+.header {
+    width: 100%;
+    height: 5vh;
+    margin-top: 30px;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+.head {
+    display: flex;
+    margin: 20px;
+    font-size: 13px;
+    align-items: center;
+    font-weight: 600;
+
+}
+
+.head p {
+    padding-left: 15px;
+}
+
+.header-logo {
+    margin-left: 18rem;
+}
+
+.icon-for-more {
+    margin-top: -15px;
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.icon-for-more:hover {
+    color: #ff69b4;
+}
+
+.sign-in {
+    display: flex;
+    margin-left: 20rem;
+}
+
+.sign-in p {
+    padding-left: 10px;
+}
+
+.sign-in i {
+    padding-left: 20px;
+}
+
+
+/* ==========Navbar========= */
+
+.navbar {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    font-weight: 500;
+}
+
+.nav {
+    margin-left: 22rem;
+}
+
+.nav a {
+    margin: 10px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.search-bar {
+    margin-left: 15rem;
+    padding-left: 5px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding-left: 8px;
+    background-color: transparent;
+    color: black;
+}
+
+.search {
+    border-bottom: 1px solid black;
+}
+
+.search i {
+    font-size: 22px;
+}
+
+/* Discount section */
+
+.discount-section {
+    margin-top: 50px;
+    margin-left: 18rem;
+    display: flex;
+    gap: 5rem;
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+}
+
+
+/* ====Black Friday Section==== */
+/* .black-friday {
+        width: 70vw;
+        height: 600px;
+        background-color: black;
+        margin-top: 50px;
+        margin-left: 13rem;
+    }
+
+    .contant {
+        width: 100%;
+        height: 550px;
+        text-align: center;
+        margin-top: -250px;
+        justify-content: center;
+        color: #E50010;
+    }
+
+    .shoping-option button {
+        width: 80px;
+        height: 35px;
+        margin-top: 70px;
+        font-size: 14px;
+        font-weight: 600;
+        background-color: white;
+        border: none;
+        font-weight: 600;
+    }
+
+    .contant h1 {
+        font-size: 70px;
+    }
+
+    .contant p {
+        margin-top: -10px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .shoping-option p {
+        margin-top: 50px;
+        font-size: 12px;
+    }
+
+    /* =========================Main Button use for hover for hole web page============================= */
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Some Problam in This offer section the is width!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+.hero-section {
+    width: 70vw;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: 13rem;
+    cursor: pointer;
+}
+
+.hero-section .text {
+    margin-top: -150px;
+    text-align: center;
+
+}
+
+.tooltip .tooltiptext {
+
+    z-index: 5;
+    color: black;
+}
+
+
+.text h1 {
+    font-weight: 700;
+    font-stretch: extra-expanded;
+}
+
+.text button {
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #cacaca;
+}
+
+/* The second hero section */
+.text-1 {
+    margin-top: -180px;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 700;
+    font-stretch: extra-expanded;
+}
+
+.text-1 button {
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+    font-weight: 600;
+}
+
+.text-1 p {
+    margin-top: -10px;
+    font-weight: 400;
+}
+
+/* second part */
+
+.holiday-package {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 13rem
+}
+
+.holiday-sec {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    margin-top: -130px;
+    color: white;
+    font-size: 13px;
+    padding-right: 24rem;
+}
+
+.holiday-sec h5 {
+    font-size: 15px;
+}
+
+.holiday-sec button {
+    width: 80px;
+    height: 35px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+
+/* ============================Crousel===================== */
+
+.crousel {
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 13rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.crousel-sec {
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    margin-left: 3rem;
+    font-size: 25px;
+    transition: all 0.5s ease-in-out;
+}
+
+.crousel-sec .prev-btn {
+    border: none;
+    background: transparent;
+    margin-top: -13rem;
+    outline: none;
+    margin-left: -3rem;
+}
+
+
+.crousel-sec .next-btn {
+    border: none;
+    background: transparent;
+    margin-top: -13rem;
+    outline: none;
+    padding-left: 2rem;
+}
+
+.crousel-item {
+    width: 64%;
+    height: 400px;
+    display: flex;
+    margin-left: 1rem;
+    overflow: hidden;
+    position: relative;
+    scroll-behavior: smooth;
+    gap: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.crousel-item .item h6 {
+    font-size: 14px;
+
+}
+
+.hero-3 {
+    margin-top: -13rem;
+    font-size: 20px;
+}
+
+.text-3 h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.text-3 button {
+    background-color: white;
+    color: black;
+}
+
+
+/* ===========================Footer==================== */
+
+.footer{
+    width:100%;
+    height: 400px;
+    /* background-color:#E4E4E4;  */
+    font-size:10px;
+    margin-left: 1rem;
+    padding-left: 16rem;
+
+}
+
+.footer-row{
+    margin: -60px;
+    margin-top: 70px;
+}
+
+.footer, .footer-row{
+    width: 90%;
+    padding-right: -10px;
+    display: flex;
+}
+
+.footer-row, .footer-col, h3{
+    font-size: 13px;
+
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer ul, li{
+    list-style: none;
+}
+
