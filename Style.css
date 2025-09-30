@@ -1,4 +1,8 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+
 /* Style.css */
+
 
 html {
     scroll-behavior: smooth;
@@ -28,7 +32,7 @@ a {
         position: fixed;
         top: 0;
         z-index: 1;
-        background-color: black;
+        background:transparent;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -43,13 +47,19 @@ a {
 
     }
 
-    .nav .scrolled {
-        background-color: white;
+    nav.scrolled-nav {
+        color: black !important ;
+         background-color:white;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
+    nav.scrolled-nav a {
+        font-weight: bolder;
+        color: black !important ;
+    }
+
     .nav:active {
-        -color: #E54B4B;
+        color: #E54B4B;
         z-index: 1;
     }
 
@@ -65,6 +75,10 @@ a {
     }
 
     .nav-logo {
+        padding-left: 2rem;
+        font-family: "Meddon", cursive;
+        font-size: 1.6rem;
+        color: white;
         margin-top: -20px;
         margin-right: 49rem;
     }
@@ -96,7 +110,10 @@ a {
     section {
         width: 100%;
         height: 100vh;
-        background-color: black;
+        background-image: url(./Images/Hero.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         position: relative;
         display: flex;
         justify-content: center;
@@ -342,7 +359,7 @@ a {
     .freelance-section h5 .contact-me a {
         width: 10%;
         margin-top: 5px;
-    
+
         float: left;
         border-radius: 10px;
         transition: 0.5s;
@@ -353,7 +370,7 @@ a {
         padding-bottom: 5px;
         transition: 0.2s;
         border-bottom: 2px solid #E54B4B;
-        
+
     }
 
 
@@ -422,11 +439,11 @@ a {
         color: black;
     }
 
-    .Contact-info span {
+    .Contact-info span a {
         color: #807d7d;
         padding-right: 20px;
         display: flexbox;
-        align-items:start;
+        align-items: start;
         text-align: left;
         font-size: 15px;
         font-weight: bold;
@@ -441,6 +458,7 @@ a {
         border-radius: 10px;
         transition: 0.5s;
     }
+
     .Contact-info span:hover {
         width: 90%;
         color: black;
@@ -485,8 +503,8 @@ a {
         background-color: white;
     }
 
-    
-    footer{
+
+    footer {
         width: 100%;
         height: 60px;
         background-color: black;
@@ -496,7 +514,7 @@ a {
         color: white;
         font-size: 14px;
     }
-    
+
     .social-icons {
         margin-left: 10px;
         display: flex;
@@ -508,8 +526,8 @@ a {
     }
 
 
-    
-    
+
+
 
 }
 
@@ -520,14 +538,15 @@ a {
 
 /* End Of laptop and Computer screeen media qurey */
 
-@media screen and (max-width: 400px) , (max-width: 1024px) {
+@media screen and (max-width: 400px),
+(max-width: 1024px) {
 
-        *{
+    * {
         scroll-behavior: smooth;
 
-        
-        }
-    
+
+    }
+
 
     nav {
         height: 40px;
@@ -604,7 +623,7 @@ a {
         padding-top: 4rem;
         height: auto;
     }
-    
+
 
 
     .hero-content h1,
@@ -617,7 +636,7 @@ a {
     }
 
     .project h2 {
-        padding-left:0.1rem;
+        padding-left: 0.1rem;
     }
 
     .about img {
@@ -672,7 +691,7 @@ a {
         text-align: left;
     }
 
-    .freelance-section h5{
+    .freelance-section h5 {
         padding-left: 1rem;
         text-align: left;
         font-size: 14px;
